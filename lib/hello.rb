@@ -1,3 +1,5 @@
+ array= ["Tim", "Tom", "Jim"]
+
 def hello_t(array)
   if block_given?
     i = 0
@@ -12,4 +14,4 @@ def hello_t(array)
 end 
 
 
-  
+  puts hello_t(array)
